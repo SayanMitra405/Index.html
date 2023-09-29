@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: 'noto-sans' sans-serif;
+  font-family: 'Poppins', sans-serif;
+}
+body{
+  background: url(JW9.jpg);
+  background-repeat: no-repeat;
+ background-attachment: fixed;
+ background-size: 100% 100%;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: black;
+  color: white;
+  padding: 19px 12px;
+}
+
+a {
+  color: white;
+
+}
+
+ul {
+  display: flex;
+}
+
+ul li {
+  list-style-type: none;
+  padding: 0 13px;
+  font-size: 13px;
+  font: bold;
+}
+
+ul li a {
+  text-decoration: none;
+
+}
+
+ul>li>a:hover {
+  color: gray;
+}
+main{
+  min-height: 95vh;
+}
+
+footer {
+  font: 12px;
+  background-color: black;
+  color: white;
+  padding: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+h1{
+  text-align: center;
+  padding-bottom: 16px;
+  margin-top: 10px;
+ color: deepskyblue;
+}
+h2{
+  text-align: center;
+  color: red;
+}
+.laddu{
+  text-align: center;
+  color: blue;
+  font: bold;
+}
+.sayan{
+  color: blue;
+  font: bold;
+}
+.Mitra{
+  color: blue;
+  font: bold;
+}
